@@ -40,8 +40,25 @@ body {
 .text-1 {
     font-family: 'Poppins', serif;
     font-weight: 300;
-    margin-bottom: 20px;
     max-width: 500px;
+    margin-bottom: 10px;
+}
+
+.link {
+    font-family: 'Poppins', serif;
+    text-decoration: none;
+    margin-bottom: 20px;
+    opacity: 0.5;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    opacity: 1;
+}
+
+.link-sm {
+    font-size: 12px;
 }
 
 @media screen and (max-width: 768px) {
