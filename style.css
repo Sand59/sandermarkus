@@ -69,11 +69,17 @@ section {
 
 .img-2 {
     position: absolute;
-    bottom: 50%;
+    bottom: 40%;
     right: 10%;
     width: 80px;
     object-fit: cover;
     transform: translate(-50%, -50%);
+}
+
+@media screen and (max-width: 768px) {
+    .img-2 {
+        bottom: 30%;
+    }
 }
 
 .navbar {
